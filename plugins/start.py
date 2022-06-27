@@ -90,9 +90,10 @@ async def start_command(client: Client, message: Message):
         reply_markup = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("MAIN CHANNEL",
+                    InlineKeyboardButton("CHANNEL UTAMA",
                     url = client.invitelink),
-                    InlineKeyboardButton("CLOSE", callback_data = "close")
+                    InlineKeyboardButton("BOKEP VVIP",
+                    url = https://t.me/InfoListVip)
                 ]
             ]
         )
