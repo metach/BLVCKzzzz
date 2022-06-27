@@ -92,7 +92,8 @@ async def start_command(client: Client, message: Message):
                 [
                     InlineKeyboardButton("CHANNEL UTAMA",
                     url = client.invitelink),
-                    InlineKeyboardButton("CLOSE", callback_data = "close")
+                    InlineKeyboardButton("BOKEP RARE",
+                    url = "https://t.me/InfoListViral")
                 ]
             ]
         )
